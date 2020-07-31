@@ -51,6 +51,8 @@
         border: 1px solid #000;
         border-radius: 5px;
         -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
 
     input[type='submit']:hover {
@@ -131,6 +133,8 @@
         border: 1px solid #000;
         border-radius: 5px;
         -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
 
     input[type='submit']:hover {
