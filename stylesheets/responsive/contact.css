@@ -1,0 +1,270 @@
+/* FOR MOBILES ~ 4inch */
+@media only screen and (max-width: 21rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 6rem 1rem 0 1rem;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        text-align: center;
+        font-size: 1.3rem;
+        margin-bottom: 15%;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-family: euclid;
+        border: none;
+        font-size: .8rem;
+        margin: 0;
+        outline: 0;
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        color:#000;
+        margin-bottom: 1rem;
+    }
+
+    textarea {
+        min-height: 8rem;
+        font-family: euclid;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+    }
+
+    input[type='submit'] {
+        position: relative;
+        font-family: euclid;
+        display: block;
+        padding: 1rem 2rem 1rem 2rem;
+        color: #fff;
+        margin: 0 auto 4rem auto;
+        background-color: #000;
+        font-size: 75%;
+        text-align: center;
+        width: 50%;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+
+    input[type='submit']:hover {
+        color: #000;
+        background-color: #fff;
+        cursor: pointer;
+        transition: .6s;
+    }
+
+    .contact-icons {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+        margin-bottom: 20%;
+    }
+
+    .contact-icons a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+    }
+
+    .fa-phone {
+        font-size: 1rem;
+    }
+}
+
+/* FOR MOBILES iPhone X etc. */
+@media only screen and (min-width: 21.1rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 8rem 2rem 0 2rem;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-family: euclid;
+        border: none;
+        font-size: .9rem;
+        margin: 0;
+        outline: 0;
+        padding: 1.2rem;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        color:#000;
+        margin-bottom: 2rem;
+    }
+
+    textarea {
+        min-height: 8rem;
+        font-family: euclid;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+    }
+
+    input[type='submit'] {
+        position: relative;
+        font-family: euclid;
+        display: block;
+        padding: 1rem 2rem 1rem 2rem;
+        color: #fff;
+        margin: 0 auto 4rem auto;
+        background-color: #000;
+        font-size: 75%;
+        text-align: center;
+        width: 50%;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+
+    input[type='submit']:hover {
+        color: #000;
+        background-color: #fff;
+        cursor: pointer;
+        transition: .6s;
+    }
+
+    .contact-icons {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+    }
+
+    .contact-icons a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.4rem;
+    }
+
+    .fa-phone {
+        font-size: 1.2rem;
+    }
+}
+
+/* FOR iPads */
+@media only screen and (min-width: 48rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 10rem 10rem 0 10rem;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: 1rem;
+        padding: 1.2rem;
+    }
+    
+    textarea {
+        min-height: 12rem;
+    }
+
+    input[type='submit'] {
+        font-size: 80%;
+        margin-top: 3rem;
+    }
+
+    .contact-icons a {
+        font-size: 1.6rem;
+    }
+
+    .fa-phone {
+        font-size: 1.4rem;
+    }
+}
+
+/* FOR DESKTOPS & LAPTOPS */
+@media only screen and (min-width: 64rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 10rem 12rem 0 12rem;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: 1rem;
+    }
+
+    input[type='submit'] {
+        font-size: 100%;
+    }
+
+    .contact-icons {
+        width: 25%;
+    }
+
+    .contact-icons a {
+        font-size: 1.8rem;
+    }
+
+    .fa-phone {
+        font-size: 1.6rem;
+    }
+}
+
+/* 1440 pixels width */
+@media only screen and (min-width: 90rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 10rem 20rem 0 20rem;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: 1rem;
+    }
+
+    .contact-icons a {
+        font-size: 1.8rem;
+    }
+
+    .fa-phone {
+        font-size: 1.6rem;
+    }
+}
+
+/* Full HD */
+@media only screen and (min-width: 120rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 10rem 30rem 0 30rem;
+        gap: .5rem;
+    }
+
+    .contact-icons a {
+        font-size: 2rem;
+    }
+
+    .fa-phone {
+        font-size: 1.8rem;
+    }
+}

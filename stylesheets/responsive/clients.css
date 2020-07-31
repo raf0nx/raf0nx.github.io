@@ -1,0 +1,108 @@
+/* FOR MOBILES ~ 4inch */
+@media only screen and (max-width: 21rem) {
+    .clients-section {
+        grid-template-columns: 1fr;
+        margin: 6rem 4rem 0 4rem;
+        gap: 0rem;
+    }
+
+    .clients-header {
+        font-size: .8rem;
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+
+    .clients-header .fa-heart {
+        font-size: .6rem;
+    }
+}
+
+/* FOR MOBILES iPhone X etc. */
+@media only screen and (min-width: 21.1rem) {
+    .clients-section {
+        grid-template-columns: 1fr;
+        margin: 7rem 4.5rem 0 4.5rem;
+        gap: 0rem;
+    }
+
+    .clients-header {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+
+    .clients-header .fa-heart {
+        font-size: .7rem;
+    }
+}
+
+/* FOR iPads */
+@media only screen and (min-width: 48rem) {
+    .clients-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 6rem 6rem 0 6rem;
+        gap: 2rem;
+    }
+
+    .clients-header {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 0;
+        grid-column: 1 / span 2;
+    }
+
+    .clients-header .fa-heart {
+        font-size: 1.3rem;
+    }
+}
+
+/* FOR DESKTOPS & LAPTOPS */
+@media only screen and (min-width: 64rem) {
+     .clients-section {
+        margin: 6rem 12rem 0 12rem;
+    }
+
+    .clients-header {
+        font-size: 1.8rem;
+        margin-top: 15%;
+    }
+
+    .clients-header .fa-heart {
+        font-size: 1.6rem;
+    }
+}
+
+/* 1440 pixels width */
+@media only screen and (min-width: 90rem) {
+    .clients-section {
+        margin: 6rem 18rem 0 18rem;
+    }
+
+    .clients-header {
+        font-size: 2rem;
+        margin-top: 15%;
+    }
+
+    .clients-header .fa-heart {
+        font-size: 1.8rem;
+    }
+}
+
+/* Full HD */
+@media only screen and (min-width: 120rem) {
+    .clients-section {
+        margin: 6rem 24rem 0 24rem;
+    }
+
+    .clients-header {
+        font-size: 2.2rem;
+        margin-top: 15%;
+    }
+
+    .clients-header .fa-heart {
+        font-size: 2rem;
+    }
+}

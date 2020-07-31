@@ -1,0 +1,117 @@
+/* FOR MOBILES ~ 4inch */
+@media only screen and (max-width: 21rem) {
+    .about-section {
+        grid-template-columns: 1fr;
+        margin: 6rem 1rem 0 1rem;
+        gap: .5rem;
+    }
+
+    .about-section p {
+        font-size: .8rem;
+    }
+
+    .about-title {
+        text-align: right;
+        margin-top: 4rem;
+        font-size: 1.1rem;
+        font-family: euclid-bold;
+    }
+}
+
+/* FOR MOBILES iPhone X etc. */
+@media only screen and (min-width: 21.1rem) {
+    .about-section {
+        grid-template-columns: 1fr;
+        margin: 8rem 1rem 0 1rem;
+        gap: .5rem;
+    }
+
+    .about-section p {
+        font-size: .9rem;
+    }
+
+    .about-title {
+        text-align: right;
+        margin-top: 4rem;
+        font-size: 1.2rem;
+        font-family: euclid-bold;
+    }
+}
+
+/* FOR iPads */
+@media only screen and (min-width: 48rem) {
+    .about-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 10rem 2rem 0 2rem;
+        gap: 3rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    .about-title {
+        display: none;
+    }
+
+    .about-title-next {
+        display: block;
+        text-align: left;
+        margin-top: 0;
+        font-size: 1.4rem;
+        font-family: euclid-bold;
+    }
+
+}
+
+/* FOR DESKTOPS & LAPTOPS */
+@media only screen and (min-width: 64rem) {
+    .about-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 12rem 4rem 0 4rem;
+        gap: 3rem;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+    }
+
+    .about-title-next {
+        font-size: 1.6rem;
+    }
+}
+
+/* 1440 pixels width */
+@media only screen and (min-width: 90rem) {
+    .about-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 14rem 5rem 0 5rem;
+        gap: 5rem;
+    }
+
+    .about-section p {
+        font-size: 1.2rem;
+    }
+
+    .about-title-next {
+        font-size: 1.8rem;
+    }
+
+}
+
+/* Full HD */
+@media only screen and (min-width: 120rem) {
+    .about-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 15rem 5rem 0 5rem;
+        gap: 5rem;
+    }
+
+    .about-section p {
+        font-size: 1.4rem;
+    }
+
+    .about-title-next {
+        font-size: 2.2rem;
+    }
+}
