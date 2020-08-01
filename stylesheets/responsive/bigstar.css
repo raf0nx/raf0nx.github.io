@@ -1,0 +1,7 @@
+@media only screen and (min-width: 21.1rem) {
+    .big-star-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 7rem 1rem 0 1rem;
+    }
+}
