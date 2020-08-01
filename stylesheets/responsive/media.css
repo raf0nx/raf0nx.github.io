@@ -53,20 +53,11 @@
 
     .showMenu ul {
         line-height: 4rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .showMenu ul li:last-child a{
-    margin: .8rem;
-}
-
-    .bar1, .bar2, .bar3 {
-        width: 30px;
-        height: 4px;
-    }
-
-    .menu {
-        display: none;
+        margin: 1rem;
     }
 
     .bar1, .bar2, .bar3 {

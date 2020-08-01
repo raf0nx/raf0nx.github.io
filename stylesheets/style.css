@@ -175,7 +175,7 @@ section {
 }
 
 .image-card .image-wrapper .portfolio-link:hover .overlay{
-    opacity: .8;
+    opacity: .5;
 }
 
 .text {
