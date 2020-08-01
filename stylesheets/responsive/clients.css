@@ -27,14 +27,15 @@
     }
 
     .clients-header {
-        font-size: 1rem;
+        font-size: 1.6rem;
+        font-family: euclid-bold;
         text-align: center;
         margin-top: 25%;
         margin-bottom: 25%;
     }
 
     .clients-header .fa-heart {
-        font-size: .7rem;
+        font-size: 1.4rem;
     }
 }
 
