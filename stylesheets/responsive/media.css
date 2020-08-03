@@ -25,10 +25,6 @@
     .image-card:last-child {
         margin-bottom: 2rem;
     }
-
-    footer {
-        font-size: .65rem;
-    }
 }
 
 /* FOR MOBILES iPhone X etc. */
@@ -171,6 +167,7 @@
 
     footer {
         font-size: 1rem;
+        margin-left: 2rem;
     }
 }
 
@@ -257,6 +254,11 @@
     .img-border {
         display: none;
     }
+
+    .footer {
+        font-size: 1.1rem;
+        margin-left: 3rem;
+    }
 }
 
 /* 1440 pixels width */
@@ -285,6 +287,11 @@
 
     .fas {
         font-size: 1.1rem;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+        margin-left: 4rem;
     }
 }
 

@@ -253,8 +253,9 @@ section {
 /* FOOTER */
 /* ============================================= */
 footer {
-    font-size: .9rem;
+    font-size: .65rem;
     grid-column: span 2;
+    margin-left: 1rem;
 }
 
 footer a {
@@ -264,7 +265,7 @@ footer a {
 
 footer a:hover {
     border-bottom: 1px solid #000;
-    transition: .3s;
+    transition: .6s;
 }
 
 /* ABOUT SECTION */

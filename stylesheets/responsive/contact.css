@@ -8,8 +8,9 @@
 
     .contact-header {
         text-align: center;
-        font-size: 1.3rem;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
+        font-family: euclid-bold;
+        font-size: 1.4rem;
     }
 
     input[type="text"], input[type="email"], textarea {
@@ -18,14 +19,14 @@
         font-size: .8rem;
         margin: 0;
         outline: 0;
-        padding: 1rem;
+        padding: 1.1rem;
         width: 100%;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         box-sizing: border-box; 
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box; 
         color:#000;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     textarea {
@@ -43,7 +44,7 @@
         display: block;
         padding: 1rem 2rem 1rem 2rem;
         color: #fff;
-        margin: 0 auto 4rem auto;
+        margin: 0 auto 33% auto;
         background-color: #000;
         font-size: 75%;
         text-align: center;
@@ -64,20 +65,45 @@
 
     .contact-icons {
         margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        width: 33%;
-        margin-bottom: 20%;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .contact-icons span {
+        font-family: euclid;
+        font-weight: normal;
     }
 
     .contact-icons a {
         text-decoration: none;
+        display: block;
         color: #000;
-        font-size: 1.2rem;
+        font-size: .8rem;
+        margin-bottom: 2%;
     }
 
     .fa-phone {
-        font-size: 1rem;
+        font-size: .8rem;
+    }
+
+    .social-icons {
+        margin: 0 auto 10% auto;
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .social-icons a:hover {
+        color: #909090;
+        transition: .6s;
     }
 }
 
@@ -200,7 +226,15 @@
 
     .contact-header {
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+
+    .fa-phone {
+        font-size: .9rem;
+    }
+
+    .contact-icons a {
+        font-size: .9rem;
     }
 
     input[type="text"], input[type="email"], textarea {
@@ -217,12 +251,8 @@
         margin-top: 3rem;
     }
 
-    .contact-icons a {
+    .social-icons {
         font-size: 1.6rem;
-    }
-
-    .fa-phone {
-        font-size: 1.4rem;
     }
 }
 
@@ -236,7 +266,15 @@
 
     .contact-header {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .fa-phone {
+        font-size: 1rem;
+    }
+
+    .contact-icons a {
+        font-size: 1rem;
     }
 
     input[type="text"], input[type="email"], textarea {
@@ -247,16 +285,8 @@
         font-size: 100%;
     }
 
-    .contact-icons {
-        width: 25%;
-    }
-
-    .contact-icons a {
+    .social-icons {
         font-size: 1.8rem;
-    }
-
-    .fa-phone {
-        font-size: 1.6rem;
     }
 }
 
@@ -270,19 +300,23 @@
 
     .contact-header {
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 2.4rem;
+    }
+
+    .fa-phone {
+        font-size: 1.1rem;
+    }
+
+    .contact-icons a {
+        font-size: 1.1rem;
     }
 
     input[type="text"], input[type="email"], textarea {
         font-size: 1rem;
     }
 
-    .contact-icons a {
-        font-size: 1.8rem;
-    }
-
-    .fa-phone {
-        font-size: 1.6rem;
+    .social-icons {
+        font-size: 2rem;
     }
 }
 
@@ -295,10 +329,14 @@
     }
 
     .contact-icons a {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .fa-phone {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+    }
+
+    .social-icons {
+        font-size: 2.2rem;
     }
 }
