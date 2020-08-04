@@ -272,3 +272,19 @@ footer a:hover {
 .about-title-next {
     display: none;
 }
+
+/* Credits in galleries */
+.credits {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.credits h2 {
+    font-family: euclid-bold;
+    font-size: 1rem;
+    margin-bottom: 10%;
+}
+
+.credits p {
+    font-size: .6rem;
+}

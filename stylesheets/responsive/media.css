@@ -96,6 +96,21 @@
     footer {
         font-size: .7rem;
     }
+
+    /* Credits in galleries */
+    .credits h2 {
+        font-size: 1.2rem;
+    }
+
+    .credits p {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (min-width: 36rem) {
+    .credits {
+        grid-column: 1 / span 2;
+    }
 }
 
 /* FOR iPads */
@@ -168,6 +183,15 @@
     footer {
         font-size: 1rem;
         margin-left: 2rem;
+    }
+
+    /* Credits in galleries */
+    .credits h2 {
+        font-size: 1.8rem;
+    }
+
+    .credits p {
+        font-size: 1rem;
     }
 }
 
@@ -258,6 +282,15 @@
     .footer {
         font-size: 1.1rem;
         margin-left: 3rem;
+    }
+
+    /* Credits in galleries */
+    .credits {
+        margin-top: 10%;
+    }
+
+    .credits h2 {
+        font-size: 2rem;
     }
 }
 
