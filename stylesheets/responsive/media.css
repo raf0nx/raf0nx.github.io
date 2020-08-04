@@ -42,6 +42,14 @@
         font-size: .8rem;
     }
 
+    /* RETURN BUTTON */
+
+    .return {
+        font-size: .8rem;
+        left: .5rem;
+        top: 2.9rem;
+    }
+
     .sticky-menu {
         right: 1.1rem;
         top: 2.5rem;
@@ -128,6 +136,13 @@
         font-size: 1.6rem;
     }
 
+    /* RETURN BUTTON */
+    .return {
+        font-size: 1.2rem;
+        left: 1.5rem;
+        top: 4.2rem;
+    }
+
     .sticky-menu {
         right: 2.8rem;
         top: 3.7rem;
@@ -204,6 +219,13 @@
 
     .main {
         font-size: 2.4rem;
+    }
+
+    /* RETURN BUTTON */
+    .return {
+        font-size: 1.3rem;
+        left: 1.8rem;
+        top: 4.3rem;
     }
 
     .sticky-menu {
@@ -302,6 +324,13 @@
         gap: 2rem;
     }
 
+    /* RETURN BUTTON */
+    .return {
+        font-size: 1.4rem;
+        left: 1.9rem;
+        top: 4.4rem;
+    }
+
     .underline-left {
         margin-bottom: 4%;
     }
@@ -332,6 +361,13 @@
 @media only screen and (min-width: 120rem) {
     .img-caption {
         font-size: 1.8rem;
+    }
+
+    /* RETURN BUTTON */
+    .return {
+        font-size: 1.5rem;
+        left: 2.1rem;
+        top: 4.6rem;
     }
 
     .fas {

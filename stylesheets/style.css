@@ -32,7 +32,7 @@ body {
 .main {
     display: flex;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     font-family: 'future';
     text-transform: uppercase;
     z-index: 1;
@@ -52,6 +52,27 @@ body {
 .main a:hover {
     color: #909090;
     transition: .5s;
+}
+
+/* RETURN BUTTON */
+.return {
+    position: fixed;
+    font-size: .7rem;
+    left: .5rem;
+    top: 2.25rem;
+    letter-spacing: 1px;
+}
+
+.return a {
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.return a:hover {
+    color: #909090;
+    transition: .6s;
 }
 
 /* ============================================= */
