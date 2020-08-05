@@ -1,3 +1,4 @@
+/* SOME CUSTOM FONTS */
 @font-face {
     src: url('../fonts/FUTRFW.TTF');
     font-family: future;
@@ -28,38 +29,38 @@ body {
 /* ============================================= */
 /* HEADER */
 /* ============================================= */
-
-.main {
+.main-logo {
     display: flex;
     align-items: center;
-    /* position: fixed; */
     font-family: 'future';
     text-transform: uppercase;
-    z-index: 1;
+    margin: 15% 0 0 5%;
 }
 
-/* Header hider */
-.hide-main {
-    display: none;
-}
 
-.main a {
+.main-logo a {
     text-decoration: none;
     color: #000;
-    font-size: 2rem;
+    font-size: .7rem;
 }
 
-.main a:hover {
+.main-logo a:hover {
     color: #909090;
-    transition: .5s;
+    transition: .6s;
 }
+
+/* HEADER HIDER */
+/* .hide-main {
+    display: none;
+} */  
+/* ZMIANA */
 
 /* RETURN BUTTON */
 .return {
     position: fixed;
     font-size: .7rem;
-    left: .5rem;
-    top: 2.25rem;
+    left: 3%;
+    top: 6%;
     letter-spacing: 1px;
 }
 
@@ -82,14 +83,15 @@ body {
 /* HAMBURGER MENU */
 .sticky-menu {
     position: fixed;
-    right: 1.5rem;
-    top: 2rem;
+    right: 5%;
+    top: 5%;
     z-index: 1;
 }
 
 .container {
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block;  */
+  /* ZMIANA */
 }
 
 .bar1, .bar2, .bar3 {
@@ -97,7 +99,7 @@ body {
   height: 2px;
   background-color: #333;
   margin: 4px 0;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 
 .change .bar1 {
