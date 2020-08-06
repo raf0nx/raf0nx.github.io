@@ -5,22 +5,21 @@
     }
 
     .clients-header {
-        font-size: .8rem;
+        font-size: 1.4rem;
         text-align: center;
         margin-top: 25%;
         margin-bottom: 25%;
     }
 
     .clients-header .fa-heart {
-        font-size: .6rem;
+        font-size: 1.2rem;
     }
 }
 
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.1rem) {
     .clients-section {
-        grid-template-columns: 1fr;
-        margin: 7rem 4.5rem 0 4.5rem;
+        margin: 25% 12% 0 12%;
         gap: 0rem;
     }
 

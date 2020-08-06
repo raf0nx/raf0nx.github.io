@@ -1,15 +1,20 @@
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.01rem) {
     .main-logo a {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     /* RETURN BUTTON */
-
     .return {
         font-size: .8rem;
     }
 
+    /* HOME BUTTON */
+    .fa-home {
+        font-size: 1.2rem;
+    }
+
+    /* HAMBURGER MENU */
     .showMenu ul {
         line-height: 5rem;
         font-size: 1.8rem;
@@ -41,16 +46,11 @@
 
     /* MAIN */
     section {
-        grid-template-columns: 1fr;
-        margin: 7rem 1rem 0 1rem;
+        margin: 25% 12% 0 12%;
     }
     
     .text {
         font-size: 1.1rem;
-    }
-
-    section:last-child {
-        margin-bottom: 4rem;
     }
 
     .img-caption {
@@ -58,7 +58,7 @@
     }
 
     footer {
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     /* Credits in galleries */

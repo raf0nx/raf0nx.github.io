@@ -58,12 +58,33 @@ body {
     text-align: center;
 }
 
+/* ============================================= */
+/* NAVBAR */
+/* ============================================= */
+
+/* HOME BUTTON */
+.home-btn {
+    position: fixed;
+    left: 5%;
+    top: 6.5%;
+    z-index: 1;
+}
+
+.home-btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-home {
+    font-size: 1rem;
+}
+
 /* RETURN BUTTON */
 .return {
     position: fixed;
     font-size: .7rem;
-    left: .5rem;
-    top: 2.25rem;
+    left: 3%;
+    top: 6.5%;
     letter-spacing: 1px;
 }
 
@@ -78,29 +99,6 @@ body {
     color: #909090;
     transition: .6s;
 }
-
-/* ============================================= */
-/* NAVBAR */
-/* ============================================= */
-
-/* HOME BUTTON */
-.home-btn {
-    position: fixed;
-    left: 5%;
-    top: 3.5%;
-    z-index: 1;
-}
-
-.home-btn a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.8rem;
-}
-
-.fa-home {
-    font-size: 1rem;
-}
-
 
 /* HAMBURGER MENU */
 .sticky-menu {
@@ -166,8 +164,8 @@ body {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    line-height: 3rem;
-    font-size: 1.1rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
     transition: 0.6s;
     padding: 0;
 }
@@ -301,10 +299,16 @@ section {
 /* FOOTER */
 /* ============================================= */
 footer {
-    font-size: .65rem;
+    font-size: .7rem;
     grid-column: span 2;
-    margin-left: 10%;
+    text-align: center;
 }
+
+footer p {
+    margin-block-start: 0;
+    margin-block-end: 1%;
+}
+
 
 footer a {
     text-decoration: none;

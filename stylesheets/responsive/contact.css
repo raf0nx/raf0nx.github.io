@@ -87,7 +87,7 @@
     }
 
     .social-icons {
-        margin: 0 auto 10% auto;
+        margin: 0 auto 20% auto;
         display: flex;
         justify-content: space-around;
         width: 50%;
@@ -108,8 +108,7 @@
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.1rem) {
     .contact-section {
-        grid-template-columns: 1fr;
-        margin: 8rem 2rem 0 2rem;
+        margin: 30% 12% 0 12%;
         gap: .5rem;
     }
 
@@ -153,7 +152,7 @@
         color: #fff;
         margin: 0 auto 33% auto;
         background-color: #000;
-        font-size: 75%;
+        font-size: 70%;
         text-align: center;
         width: 50%;
         border: 1px solid #000;
@@ -196,7 +195,7 @@
     }
 
     .social-icons {
-        margin: 0 auto;
+        margin: 0 auto 20% auto;
         display: flex;
         justify-content: space-around;
         width: 50%;
