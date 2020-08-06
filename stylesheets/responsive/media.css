@@ -1,33 +1,5 @@
-/* FOR MOBILES ~ 4inch */
-@media only screen and (max-width: 21rem) {
-    body {
-        grid-template-columns: 1fr 3rem;
-        grid-template-rows: auto 1fr auto;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    /* MAIN */
-
-    section {
-        grid-template-columns: 1fr;
-        margin: 6rem 1rem 0 1rem;
-    }
-
-    .image-card:last-child {
-        margin-bottom: 2rem;
-    }
-}
-
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.01rem) {
-    body {
-        grid-template-columns: 1fr 3rem;
-        grid-template-rows: auto 1fr auto;
-    }
-
     .main-logo a {
         font-size: .8rem;
     }
@@ -39,12 +11,12 @@
     }
 
     .showMenu ul {
-        line-height: 6rem;
-        font-size: 2rem;
+        line-height: 5rem;
+        font-size: 1.8rem;
     }
 
     .showMenu ul li:last-child a{
-        margin: 1.4rem;
+        margin: 1.2rem;
     }
 
     .bar1, .bar2, .bar3 {
@@ -107,11 +79,6 @@
 
 /* FOR iPads */
 @media only screen and (min-width: 48rem) {
-    body {
-        grid-template-columns: 1fr 3rem;
-        grid-template-rows: auto 1fr auto;
-    }
-
     .main-logo { 
         margin: 3rem 0 0 2rem;
     }
@@ -175,7 +142,7 @@
         font-size: 1.1rem;
     }
 
-    .fas {
+    .fa-long-arrow-alt-right {
         font-size: .9rem;
     }
 
@@ -196,11 +163,6 @@
 
 /* FOR DESKTOPS & LAPTOPS */
 @media only screen and (min-width: 64rem) {
-    body {
-        grid-template-columns: 1fr 3rem;
-        grid-template-rows: auto 1fr auto;
-    }
-
     .main-logo {
         font-size: 2.4rem;
     }
@@ -331,7 +293,7 @@
         font-size: 1.3rem;
     }
 
-    .fas {
+    .fa-long-arrow-alt-right {
         font-size: 1.1rem;
     }
 
@@ -354,7 +316,7 @@
         top: 4.6rem;
     }
 
-    .fas {
+    .fa-long-arrow-alt-right {
         font-size: 1.3rem;
     }
 }
