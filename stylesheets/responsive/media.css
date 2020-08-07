@@ -75,7 +75,7 @@
     }
 }
 
-/* FOR iPads */
+/* SMALLER TABLETS */
 @media only screen and (min-width: 36rem) {
     .main-logo {
         margin: 25% auto 0 auto;
