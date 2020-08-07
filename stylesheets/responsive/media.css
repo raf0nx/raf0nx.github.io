@@ -75,32 +75,19 @@
     }
 }
 
-@media only screen and (min-width: 36rem) {
-    .credits {
-        grid-column: 1 / span 2;
-    }
-}
-
 /* FOR iPads */
-@media only screen and (min-width: 48rem) {
-    .main-logo { 
-        margin: 3rem 0 0 2rem;
+@media only screen and (min-width: 36rem) {
+    .main-logo {
+        margin: 25% auto 0 auto;
     }
 
     .main-logo a {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     /* RETURN BUTTON */
     .return {
-        font-size: 1.2rem;
-        left: 1.5rem;
-        top: 4.2rem;
-    }
-
-    .sticky-menu {
-        right: 2.8rem;
-        top: 3.7rem;
+        font-size: 1rem;
     }
 
     .showMenu ul {
@@ -132,10 +119,10 @@
         transform: rotate(45deg) translate(-8px, -8px);
     }
 
+    /* MAIN */
     section {
         grid-template-columns: 1fr 1fr;
-        margin: 20rem 2rem 0 2rem;
-        min-height: 75vh;
+        margin: 40% 10% 0 10%;
     }
 
     .image-card:nth-of-type(odd) {
@@ -143,16 +130,15 @@
     }
 
     .img-caption {
-        font-size: 1.1rem;
+        font-size: .8rem;
     }
 
     .fa-long-arrow-alt-right {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     footer {
-        font-size: 1rem;
-        margin-left: 2rem;
+        font-size: .8rem;
     }
 
     /* Credits in galleries */
@@ -162,6 +148,10 @@
 
     .credits p {
         font-size: 1rem;
+    }
+
+    .credits {
+        grid-column: 1 / span 2;
     }
 }
 

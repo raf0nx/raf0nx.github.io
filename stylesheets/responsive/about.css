@@ -25,7 +25,7 @@
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.1rem) {
     .about-section {
-        margin: 35% 12% 0 12%;
+        margin: 30% 12% 0 12%;
         gap: .5rem;
     }
 
@@ -44,6 +44,23 @@
 
     .about-section p {
         font-size: .8rem;
+    }
+}
+
+/* SMALLER TABLETS */
+@media only screen and (min-width: 36rem) {
+    .about-section {
+        grid-template-columns: 1fr;
+        margin: 25% 12% 0 12%;
+        gap: .5rem;
+    }
+
+    .about-title {
+        font-size: 1.6rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
     }
 }
 

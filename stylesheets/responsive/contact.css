@@ -132,7 +132,7 @@
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box; 
         color:#000;
-        margin-bottom: 2rem;
+        margin-bottom: 15%;
     }
 
     textarea {
@@ -213,6 +213,39 @@
     }
 }
 
+/* SMALLER TABLETS */
+@media only screen and (min-width: 36rem) {
+    .contact-section {
+        grid-template-columns: 1fr;
+        margin: 25% 15% 0 15%;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        font-size: 1.8rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: 0.95rem;
+    }
+
+    input[type='submit'] {
+        font-size: 75%;
+    }
+
+    .contact-icons a {
+        font-size: .95rem;
+    }
+
+    .fa-phone {
+        font-size: .95rem;
+    }
+
+    .social-icons {
+        font-size: 1.5rem;
+    }
+}
+
 /* FOR iPads */
 @media only screen and (min-width: 48rem) {
     .contact-section {
@@ -227,7 +260,7 @@
     }
 
     .fa-phone {
-        font-size: .9rem;
+        font-size: .95rem;
     }
 
     .contact-icons a {
@@ -236,7 +269,6 @@
 
     input[type="text"], input[type="email"], textarea {
         font-size: 1rem;
-        padding: 1.2rem;
     }
     
     textarea {
