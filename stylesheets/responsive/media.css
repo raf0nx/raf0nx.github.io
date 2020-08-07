@@ -1,7 +1,11 @@
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.01rem) {
     .main-logo a {
-        font-size: 1rem;
+        font-size: 1.05rem;
+    }
+
+    .caption {
+        font-size: .7rem;
     }
 
     /* RETURN BUTTON */
@@ -54,11 +58,11 @@
     }
 
     .img-caption {
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
 
     footer {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     /* Credits in galleries */
