@@ -90,6 +90,15 @@
         font-size: 1rem;
     }
 
+    /* HOME BUTTON */
+    .home-btn {
+        top: 7.25%;
+    }
+
+    .fa-home {
+        font-size: 1.4rem;
+    }
+
     .showMenu ul {
         line-height: 6rem;
         font-size: 2rem;
@@ -155,10 +164,67 @@
     }
 }
 
+/* iPads */
+@media only screen and (min-width: 48rem) {
+    /* HEADER */
+    .main-logo {
+        margin: 20% auto 0 auto;
+    }
+
+    .main-logo a {
+        font-size: 1.6rem;
+    }
+
+    .caption {
+        font-size: 1rem;
+    }
+
+    /* RETURN BUTTON */
+    .return {
+        font-size: 1.1rem;
+        top: 7.5%;
+    }
+
+    /* HOME BUTTON */
+    .home-btn {
+        top: 7.5%;
+    }
+    /* MAIN */
+    section {
+        margin: 35% 8% 0 8%;
+    }
+
+    .img-caption {
+        font-size: 1rem;
+    }
+
+    .fa-long-arrow-alt-right {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: .85rem;
+    }
+
+    /* Credits in galleries */
+    .credits h2 {
+        font-size: 1.7rem;
+    }
+
+    .credits p {
+        font-size: .9rem;
+    }
+}
+
 /* FOR DESKTOPS & LAPTOPS */
 @media only screen and (min-width: 64rem) {
+    /* HEADER */
     .main-logo {
-        font-size: 2.4rem;
+        margin: 10% auto 0 auto;
+    }
+
+    .main-logo a {
+        font-size: 1.05rem;
     }
 
     /* RETURN BUTTON */

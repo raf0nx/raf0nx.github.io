@@ -14,6 +14,15 @@
     .clients-header .fa-heart {
         font-size: 1.2rem;
     }
+
+    .clients-section p {
+        font-family: euclid-bold;
+        text-align: center;
+    }
+
+    .clients-section p:last-child {
+        margin-bottom: 20%;
+    }
 }
 
 /* FOR MOBILES iPhone X etc. */
@@ -28,11 +37,20 @@
         font-family: euclid-bold;
         text-align: center;
         margin-top: 25%;
-        margin-bottom: 25%;
+        margin-bottom: 20%;
     }
 
     .clients-header .fa-heart {
         font-size: 1.4rem;
+    }
+
+    .clients-section p {
+        font-family: euclid-bold;
+        text-align: center;
+    }
+
+    .clients-section p:last-child {
+        margin-bottom: 20%;
     }
 }
 
@@ -55,21 +73,17 @@
 /* FOR iPads */
 @media only screen and (min-width: 48rem) {
     .clients-section {
-        grid-template-columns: 1fr 1fr;
-        margin: 6rem 6rem 0 6rem;
-        gap: 2rem;
+        margin: 10% 15% 0 15%;
+        gap: 1rem;
     }
 
     .clients-header {
-        font-size: 1.5rem;
-        text-align: center;
-        margin-top: 25%;
-        margin-bottom: 0;
-        grid-column: 1 / span 2;
+        font-size: 1.7rem;
+        margin-bottom: 10%;
     }
 
     .clients-header .fa-heart {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 }
 

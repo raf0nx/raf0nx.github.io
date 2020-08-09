@@ -61,36 +61,7 @@
 @media only screen and (min-width: 48rem) {
     .vicky-gallery {
          margin: 20% 10% 0 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(3) {
-        width: 95%;
-        margin-left: -5%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(4) {
-        width: 95%;
-        margin-left: 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(5) {
-        width: 95%;
-        margin-left: -5%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(6) {
-        width: 95%;
-        margin-left: 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(7) {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(8) {
-        width: 80%;
-        margin: 0 auto;
+         gap: 4rem;
     }
 }
 

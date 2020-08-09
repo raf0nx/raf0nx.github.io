@@ -34,3 +34,10 @@
         margin: 0 auto;
     }
 }
+
+@media only screen and (min-width: 36rem) {
+    .fabric-gallery {
+        margin: 20% 10% 0 10%;
+        gap: 4rem;
+    }
+}

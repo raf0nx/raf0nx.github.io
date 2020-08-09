@@ -48,15 +48,7 @@
 @media only screen and (min-width: 48rem) {
     .magnus-gallery {
         margin: 20% 10% 0 10%;
-    }
-
-    .magnus-gallery .image-responsive:nth-child(5) {
-        width: 115%;
-        margin-left: -15%;
-    }
-
-    .magnus-gallery .image-responsive:nth-child(6) {
-        width: 50%;
+        gap: 4rem;
     }
 }
 

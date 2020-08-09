@@ -128,7 +128,9 @@ body {
   background-color: #fff;
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+    opacity: 0;
+}
 
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-4px, -4px);

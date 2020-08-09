@@ -29,3 +29,10 @@
         margin-top: 120%;
     }
 }
+
+@media only screen and (min-width: 48rem) {
+    .ecommerce-gallery {
+        margin: 20% 10% 0 10%;
+        gap: 4rem;
+    }
+}

@@ -52,6 +52,8 @@
 
     .assistant-gallery .image-responsive:first-child {
         grid-column: 1 / span 3;
+        width: 115%;
+        margin-left: -7.5%;
     }
 
     .image-responsive:nth-child(2) {
@@ -152,7 +154,24 @@
     .assistant-gallery #nutella {
         grid-row: 14;
         grid-column: 1 / span 3;
-        width: 150%;
-        margin-left: 3%;
+        width: 175%;
+        margin-left: -9%;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    .assistant-gallery {
+        margin: 20% 10% 0 10%;
+        gap: 4rem;
+    }
+
+    .assistant-gallery .image-responsive:first-child {
+        width: 129%;
+        margin-left: -14.5%;
+    }
+
+    .assistant-gallery #nutella {
+        width: 200%;
+        margin-left: -21%;
     }
 }

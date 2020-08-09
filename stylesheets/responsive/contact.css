@@ -125,7 +125,7 @@
         font-size: .9rem;
         margin: 0;
         outline: 0;
-        padding: 1.2rem;
+        padding: .8rem;
         width: 100%;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         box-sizing: border-box; 
@@ -226,7 +226,7 @@
     }
 
     input[type="text"], input[type="email"], textarea {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     input[type='submit'] {
@@ -234,11 +234,11 @@
     }
 
     .contact-icons a {
-        font-size: .95rem;
+        font-size: .85rem;
     }
 
     .fa-phone {
-        font-size: .95rem;
+        font-size: .85rem;
     }
 
     .social-icons {
@@ -249,18 +249,16 @@
 /* FOR iPads */
 @media only screen and (min-width: 48rem) {
     .contact-section {
-        grid-template-columns: 1fr;
-        margin: 10rem 10rem 0 10rem;
-        gap: .5rem;
+        margin: 20% 20% 0 20%;
     }
 
     .contact-header {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .fa-phone {
-        font-size: .95rem;
+        font-size: .9rem;
     }
 
     .contact-icons a {
@@ -268,16 +266,15 @@
     }
 
     input[type="text"], input[type="email"], textarea {
-        font-size: 1rem;
+        font-size: .9rem;
     }
     
     textarea {
-        min-height: 12rem;
+        min-height: 10rem;
     }
 
     input[type='submit'] {
         font-size: 80%;
-        margin-top: 3rem;
     }
 
     .social-icons {
