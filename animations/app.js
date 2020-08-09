@@ -11,5 +11,5 @@ function myFunction(e) {
 hamburger.addEventListener('click', () => {
     hiddenMenu.classList.toggle('showMenu');
     overflow.classList.toggle('overflow');
-    header.classList.toggle('hide-main');
+    // header.classList.toggle('hide-main');
 });

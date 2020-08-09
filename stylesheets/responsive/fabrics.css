@@ -17,11 +17,15 @@
     }
 
     .fabric-gallery .image-responsive:nth-child(3) {
-        margin-top: 120%;
+        margin-top: 60%;
+    }
+
+    .fabric-gallery .image-responsive:nth-child(4) {
+        margin-top: -40%;
     }
 
     .fabric-gallery .image-responsive:nth-child(5) {
-        margin-top: 120%;
+        margin-top: 5%;
     }
 
     .fabric-gallery .image-responsive:nth-child(6) {
