@@ -1,0 +1,31 @@
+@media only screen and (max-width: 35.99rem) {
+    .ecommerce-gallery {
+        margin: 35% 12% 0 12%;
+    }
+}
+
+@media only screen and (min-width: 36rem) {
+    .ecommerce-gallery {
+        grid-template-columns: 1fr 1fr;
+        margin: 20% 5% 0 5%;
+    }
+
+    .ecommerce-gallery .image-responsive:nth-child(2) {
+        margin-top: 120%;
+    }
+
+    .ecommerce-gallery .image-responsive:nth-child(5) {
+        grid-column: 1 / span 2;
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .ecommerce-gallery .image-responsive:nth-child(6) {
+        grid-row: 4;
+        grid-column: 2;
+    }
+
+    .ecommerce-gallery .image-responsive:nth-child(7) {
+        margin-top: 120%;
+    }
+}
