@@ -6,7 +6,6 @@
 
     .big-star-gallery .image-responsive:first-child {
         grid-column: 1 / span 2;
-        margin-bottom: 10%;
     }
 
     .big-star-gallery .image-responsive:nth-child(2) {
@@ -16,12 +15,13 @@
 
     .big-star-gallery .image-responsive:nth-child(3) {
         width: 90%;
-        margin-left: 10%;
+        margin-left: 20%;
     }
 
     .big-star-gallery .image-responsive:nth-child(4) {
         width: 90%;
         margin-top: 10%;
+        margin-left: -10%;
     }
 
     .big-star-gallery .image-responsive:nth-child(5) {
@@ -33,7 +33,6 @@
 
     .big-star-gallery .image-responsive:nth-child(6) {
         grid-column: 1 / span 2;
-        margin-top: 10%;
         margin-left: 5%;
         width: 90%;
     }
@@ -41,21 +40,24 @@
     .big-star-gallery .image-responsive:nth-child(7) {
         grid-row: 5 / span 2;
         width: 120%;
+        margin-left: -10%;
     }
 
     .big-star-gallery .image-responsive:nth-child(8) {
         width: 60%;
+        margin-top: -5%;
+        margin-left: 10%;
     }
 
     .big-star-gallery .image-responsive:nth-child(9) {
         width: 60%;
-        margin-top: -20%;
-        margin-left: 40%;
+        margin-top: -10%;
+        margin-left: 50%;
     }
 
     .big-star-gallery .image-responsive:nth-child(10) {
         grid-column: 1 / span 2;
-        margin-top: 10%;
+
     }
 
     .big-star-gallery .image-responsive:nth-child(11) {
@@ -70,22 +72,24 @@
 
     .big-star-gallery .image-responsive:nth-child(13) {
         grid-column: 1 / span 2;
-        margin-top: 10%;
+        margin-bottom: 5%;
     }
 
     .big-star-gallery .image-responsive:nth-child(14) {
         width: 75%;
         margin-top: -10%;
+        margin-left: -10%;
     }
 
     .big-star-gallery .image-responsive:nth-child(15) {
-        width: 150%;
-        margin-left: -50%;
+        width: 140%;
+        margin-left: -30%;
     }
 
     .big-star-gallery .image-responsive:nth-child(16) {
         width: 75%;
-        margin-top: -120%;
+        margin-top: -100%;
+        margin-left: -10%;
     }
 }
 

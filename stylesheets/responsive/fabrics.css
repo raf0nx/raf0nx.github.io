@@ -1,0 +1,26 @@
+@media only screen and (min-width: 36rem) {
+    .fabric-gallery {
+        grid-template-columns: 1fr 1fr;
+        margin: 20% 5% 0 5%;
+    }
+
+    .fabric-gallery .image-responsive:first-child {
+        grid-column: 1 / span 2;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fabric-gallery .image-responsive:nth-child(3) {
+        margin-top: 120%;
+    }
+
+    .fabric-gallery .image-responsive:nth-child(5) {
+        margin-top: 120%;
+    }
+
+    .fabric-gallery .image-responsive:nth-child(6) {
+        grid-column: 1 / span 2;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
