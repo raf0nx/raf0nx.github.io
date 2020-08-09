@@ -1,6 +1,16 @@
 @media only screen and (max-width: 35.99rem) {
     .magnus-gallery {
-        margin: 35% 12% 0 12%;
+        margin: 35% 10% 0 10%;
+    }
+
+    .magnus-gallery .image-responsive:first-child {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .magnus-gallery .image-responsive:nth-child(7) {
+        width: 120%;
+        margin-left: -10%;
     }
 }
 

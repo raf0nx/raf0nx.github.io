@@ -190,7 +190,7 @@ main {
 section {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 25% 10% 0 10%;
+    margin: 25% 8% 0 8%;
     gap: 3rem;
 }
 

@@ -1,6 +1,26 @@
 @media only screen and (max-width: 35.99rem) {
     .big-star-gallery {
-        margin: 35% 12% 0 12%;
+        margin: 35% 10% 0 10%;
+    }
+
+    .big-star-gallery .image-responsive:first-child {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .big-star-gallery .image-responsive:nth-child(6) {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .big-star-gallery .image-responsive:nth-child(10) {
+        width: 131%;
+        margin-left: -15%;
+    }
+
+    .big-star-gallery .image-responsive:nth-child(13) {
+        width: 120%;
+        margin-left: -10%;
     }
 }
 
