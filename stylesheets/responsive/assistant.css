@@ -4,8 +4,8 @@
     }
 
     .assistant-gallery .image-responsive:first-child {
-        width: 129%;
-        margin-left: -14.55%;
+        width: 120%;
+        margin-left: -10%;
     }
 
     .assistant-gallery .image-responsive:nth-child(7) {
@@ -52,8 +52,8 @@
 
     .assistant-gallery .image-responsive:first-child {
         grid-column: 1 / span 3;
-        width: 115%;
-        margin-left: -7.5%;
+        width: 120%;
+        margin-left: -10%;
     }
 
     .image-responsive:nth-child(2) {
@@ -166,12 +166,64 @@
     }
 
     .assistant-gallery .image-responsive:first-child {
-        width: 129%;
-        margin-left: -14.5%;
+        width: 130%;
+        margin-left: -15%;
     }
 
     .assistant-gallery #nutella {
-        width: 200%;
-        margin-left: -21%;
+        width: 190%;
+        margin-left: -15%;
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    .assistant-gallery {
+        margin: 15% 15% 0 15%;
+        gap: 5rem;
+    }
+
+    .assistant-gallery .image-responsive:first-child {
+        width: 140%;
+        margin-left: -20%;
+    }
+
+    .assistant-gallery #nutella {
+        width: 210%;
+        margin-left: -25%;
+    }
+}
+
+
+@media only screen and (min-width: 90rem) {
+    .assistant-gallery {
+        margin: 15% 20% 0 20%;
+        gap: 6rem;
+    }
+
+    .assistant-gallery .image-responsive:first-child {
+        width: 160%;
+        margin-left: -30%;
+    }
+
+    .assistant-gallery #nutella {
+        width: 240%;
+        margin-left: -40%;
+    }
+}
+
+@media only screen and (min-width: 120rem) {
+    .assistant-gallery {
+        margin: 10% 25% 0 25%;
+        gap: 7rem;
+    }
+
+    .assistant-gallery .image-responsive:first-child {
+        width: 180%;
+        margin-left: -40%;
+    }
+
+    .assistant-gallery #nutella {
+        width: 270%;
+        margin-left: -55%;
     }
 }

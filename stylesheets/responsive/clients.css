@@ -18,6 +18,7 @@
     .clients-section p {
         font-family: euclid-bold;
         text-align: center;
+        font-size: .85rem;
     }
 
     .clients-section p:last-child {
@@ -47,6 +48,7 @@
     .clients-section p {
         font-family: euclid-bold;
         text-align: center;
+        font-size: .9rem;
     }
 
     .clients-section p:last-child {
@@ -68,6 +70,10 @@
     .clients-header .fa-heart {
         font-size: 1.6rem;
     }
+
+    .clients-section p {
+        font-size: .95rem;
+    }
 }
 
 /* FOR iPads */
@@ -85,12 +91,16 @@
     .clients-header .fa-heart {
         font-size: 1.7rem;
     }
+
+    .clients-section p {
+        font-size: 1rem;
+    }
 }
 
 /* FOR DESKTOPS & LAPTOPS */
 @media only screen and (min-width: 64rem) {
      .clients-section {
-        margin: 6rem 12rem 0 12rem;
+        margin: 8% 15% 0 15%;
     }
 
     .clients-header {
@@ -101,36 +111,47 @@
     .clients-header .fa-heart {
         font-size: 1.6rem;
     }
+
+    .clients-section p {
+        font-size: 1.1rem;
+    }
 }
 
 /* 1440 pixels width */
 @media only screen and (min-width: 90rem) {
     .clients-section {
-        margin: 6rem 18rem 0 18rem;
+        margin: 6% 20% 0 20%;
     }
 
     .clients-header {
-        font-size: 2rem;
+        font-size: 1.9rem;
         margin-top: 15%;
     }
 
     .clients-header .fa-heart {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
+    }
+
+    .clients-section p {
+        font-size: 1.2rem;
     }
 }
 
 /* Full HD */
 @media only screen and (min-width: 120rem) {
     .clients-section {
-        margin: 6rem 24rem 0 24rem;
+        margin: 5% 25% 0 25%;
     }
 
     .clients-header {
-        font-size: 2.2rem;
-        margin-top: 15%;
+        font-size: 2.1rem;
     }
 
     .clients-header .fa-heart {
-        font-size: 2rem;
+        font-size: 2.1rem;
+    }
+
+    .clients-section p {
+        font-size: 1.4rem;
     }
 }

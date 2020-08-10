@@ -63,111 +63,57 @@
          margin: 20% 10% 0 10%;
          gap: 4rem;
     }
+
+    .vicky-gallery .image-responsive:nth-child(5) {
+        width: 75%;
+    }
+
+    .vicky-gallery .image-responsive:nth-child(8) {
+        width: 75%;
+    }
 }
 
 @media only screen and (min-width: 64rem) {
     .vicky-gallery {
          margin: 15% 15% 0 15%;
-    }
-
-    .vicky-gallery .image-responsive:first-child {
-        margin-bottom: 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(2) {
-        margin-bottom: 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(3) {
-        width: 90%;
-        margin-bottom: 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(4) {
-        width: 90%;
-        margin-left: 15%;
+         gap: 5rem;
     }
 
     .vicky-gallery .image-responsive:nth-child(5) {
-        width: 90%;
-        margin-bottom: 10%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(6) {
-        width: 90%;
-        margin-left: 15%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(7) {
-        width: 75%;
-        margin-bottom: 10%;
+        width: 70%;
     }
 
     .vicky-gallery .image-responsive:nth-child(8) {
-        width: 75%;
+        width: 70%;
     }
 }
 
 @media only screen and (min-width: 90rem) {
     .vicky-gallery {
          margin: 15% 20% 0 20%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(3) {
-        width: 85%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(4) {
-        width: 85%;
-        margin-left: 20%;
+         gap: 6rem;
     }
 
     .vicky-gallery .image-responsive:nth-child(5) {
-        width: 85%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(6) {
-        width: 85%;
-        margin-left: 20%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(7) {
-        width: 70%;
+        width: 65%;
     }
 
     .vicky-gallery .image-responsive:nth-child(8) {
-        width: 70%;
+        width: 65%;
     }
 }
 
 @media only screen and (min-width: 120rem) {
     .vicky-gallery {
          margin: 10% 25% 0 25%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(3) {
-        width: 80%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(4) {
-        width: 80%;
-        margin-left: 25%;
+         gap: 7rem;
     }
 
     .vicky-gallery .image-responsive:nth-child(5) {
-        width: 80%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(6) {
-        width: 80%;
-        margin-left: 25%;
-    }
-
-    .vicky-gallery .image-responsive:nth-child(7) {
-        width: 65%;
+        width: 60%;
     }
 
     .vicky-gallery .image-responsive:nth-child(8) {
-        width: 65%;
+        width: 60%;
     }
 }

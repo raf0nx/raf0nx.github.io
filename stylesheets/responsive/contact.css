@@ -70,7 +70,7 @@
     }
 
     .contact-icons span {
-        font-family: euclid;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
     }
 
@@ -178,7 +178,7 @@
     }
 
     .contact-icons span {
-        font-family: euclid;
+        font-family: 'Roboto', sans-serif;
         font-weight: normal;
     }
 
@@ -285,8 +285,41 @@
 /* FOR DESKTOPS & LAPTOPS */
 @media only screen and (min-width: 64rem) {
     .contact-section {
-        grid-template-columns: 1fr;
-        margin: 10rem 12rem 0 12rem;
+        margin: 15% 30% 0 30%;
+        gap: .5rem;
+    }
+
+    .contact-header {
+        text-align: center;
+        font-size: 2.1rem;
+    }
+
+    .fa-phone {
+        font-size: .9rem;
+    }
+
+    .contact-icons a {
+        font-size: .9rem;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        font-size: .9rem;
+    }
+
+    input[type='submit'] {
+        font-size: 100%;
+    }
+
+    .social-icons {
+        font-size: 1.7rem;
+        margin-bottom: 30%;
+    }
+}
+
+/* 1440 pixels width */
+@media only screen and (min-width: 90rem) {
+    .contact-section {
+        margin: 12% 35% 0 35%;
         gap: .5rem;
     }
 
@@ -307,20 +340,15 @@
         font-size: 1rem;
     }
 
-    input[type='submit'] {
-        font-size: 100%;
-    }
-
     .social-icons {
         font-size: 1.8rem;
     }
 }
 
-/* 1440 pixels width */
-@media only screen and (min-width: 90rem) {
+/* Full HD */
+@media only screen and (min-width: 120rem) {
     .contact-section {
-        grid-template-columns: 1fr;
-        margin: 10rem 20rem 0 20rem;
+        margin: 10% 40% 0 40%;
         gap: .5rem;
     }
 
@@ -338,31 +366,11 @@
     }
 
     input[type="text"], input[type="email"], textarea {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .social-icons {
         font-size: 2rem;
-    }
-}
-
-/* Full HD */
-@media only screen and (min-width: 120rem) {
-    .contact-section {
-        grid-template-columns: 1fr;
-        margin: 10rem 30rem 0 30rem;
-        gap: .5rem;
-    }
-
-    .contact-icons a {
-        font-size: 1.4rem;
-    }
-
-    .fa-phone {
-        font-size: 1.4rem;
-    }
-
-    .social-icons {
-        font-size: 2.2rem;
+        margin-bottom: 40%;
     }
 }

@@ -36,3 +36,25 @@
         gap: 4rem;
     }
 }
+
+@media only screen and (min-width: 64rem) {
+    .ecommerce-gallery {
+        margin: 15% 15% 0 15%;
+        gap: 5rem;
+    }
+}
+
+
+@media only screen and (min-width: 90rem) {
+    .ecommerce-gallery {
+        margin: 15% 20% 0 20%;
+        gap: 6rem;
+    }
+}
+
+@media only screen and (min-width: 120rem) {
+    .ecommerce-gallery {
+        margin: 10% 25% 0 25%;
+        gap: 7rem;
+    }
+}

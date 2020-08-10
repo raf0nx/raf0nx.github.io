@@ -36,7 +36,7 @@ if(get_magic_quotes_gpc()) {
 
 
 //Twój adres email
-$address = "rafalpawlowski2011@gmail.com";
+$address = "w.kuprowska@gmail.com";
 
 
 // Wysłana wiadomość za pośrednictwem strony;
