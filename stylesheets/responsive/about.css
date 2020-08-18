@@ -7,12 +7,13 @@
     .about-title {
         text-align: right;
         margin-top: 10%;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-family: euclid-bold;
     }
 
     .about-section p {
-        font-size: .75rem;
+        font-size: .9rem;
+        line-height: 1.5rem;
     }
 
     .about-section article {
@@ -38,12 +39,13 @@
     .about-title {
         text-align: right;
         margin-top: 10%;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         font-family: euclid-bold;
     }
 
     .about-section p {
-        font-size: .8rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 }
 
@@ -56,21 +58,47 @@
     }
 
     .about-title {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
     }
 
     .about-section p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
 /* FOR iPads */
 @media only screen and (min-width: 48rem) {
     .about-section {
-        grid-template-columns: 1fr 1fr;
-        margin: 25% 8% 0 8%;
+        margin: 25% 12% 0 12%;
         gap: 2.5rem;
-        min-height: 70vh;
+    }
+
+    .about-section .image-responsive {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        font-size: 2.6rem;
+    }
+
+    .about-section p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+}
+
+/* FOR DESKTOPS & LAPTOPS */
+@media only screen and (min-width: 64rem) {
+    .about-section {
+        grid-template-columns: 1fr 1fr;
+        margin: 16% 10% 20% 10%;
+        gap: 4rem;
+    }
+
+    .about-section .image-responsive {
+        width: 100%;
     }
 
     .about-title {
@@ -81,45 +109,29 @@
         display: block;
         text-align: left;
         margin-top: 0;
-        font-size: 1.6rem;
+        font-size: 2.4rem;
         font-family: euclid-bold;
-    }
-
-    .about-section p {
-        font-size: 1rem;
-    }
-
-}
-
-/* FOR DESKTOPS & LAPTOPS */
-@media only screen and (min-width: 64rem) {
-    .about-section {
-        margin: 20% 10% 10% 10%;
-        gap: 3rem;
+        margin-bottom: 15%;
     }
 
     .about-section p {
         font-size: 1.1rem;
-    }
-
-    .about-title-next {
-        font-size: 1.8rem;
     }
 }
 
 /* 1440 pixels width */
 @media only screen and (min-width: 90rem) {
     .about-section {
-        margin: 15% 10% 10% 10%;
+        margin: 14% 10% 15% 10%;
         gap: 4rem;
     }
 
     .about-section p {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .about-title-next {
-        font-size: 1.7rem;
+        font-size: 3rem;
     }
 
 }
@@ -132,10 +144,10 @@
     }
 
     .about-section p {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     .about-title-next {
-        font-size: 2rem;
+        font-size: 3.4rem;
     }
 }

@@ -6,6 +6,7 @@
 
     .clients-header {
         font-size: 1.3rem;
+        font-family: euclid-bold;
         text-align: center;
         margin-top: 25%;
         margin-bottom: 25%;
@@ -22,14 +23,14 @@
     }
 
     .clients-section p:last-child {
-        margin-bottom: 20%;
+        margin-bottom: 40%;
     }
 }
 
 /* FOR MOBILES iPhone X etc. */
 @media only screen and (min-width: 21.1rem) {
     .clients-section {
-        margin: 25% 12% 0 12%;
+        margin: 25% 12% 25% 12%;
         gap: 0rem;
     }
 

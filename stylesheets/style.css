@@ -25,6 +25,10 @@ html, body {
     /* grid-template-rows: auto 1fr auto; */
 }
 
+video {
+    z-index: -1;
+}
+
 .overflow {
     overflow: hidden;
 }
