@@ -99,6 +99,10 @@
         font-size: 1.4rem;
     }
 
+    .sticky-menu {
+        top: 5%;
+    }
+
     .showMenu ul {
         line-height: 6rem;
         font-size: 2rem;
@@ -192,6 +196,10 @@
 
     .fa-home {
         font-size: 1.6rem;
+    }
+
+    .sticky-menu {
+        top: 6%;
     }
 
     /* MAIN */
@@ -350,6 +358,10 @@
         font-size: 1.2rem;
     }
 
+    .sticky-menu {
+        top: 6.5%;
+    }
+
     /* MAIN */
     section {
         margin: 20% 12% 0 12%;
@@ -400,6 +412,10 @@
 
     .caption {
         font-size: 1.3rem;
+    }
+
+    .sticky-menu {
+        top: 7%;
     }
 
     /* MAIN */

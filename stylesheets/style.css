@@ -16,7 +16,6 @@
 
 html, body {
     font-family: 'euclid';
-    /* min-height: 100vh; */
 }
 
 video {
@@ -147,7 +146,7 @@ video {
     display: block;
     position: fixed;
     background-color: #000;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     top: 0;
     left: 0;

@@ -42,6 +42,11 @@
         width: 120%;
         margin-left: -10%;
     }
+
+    .assistant-gallery #nutella {
+        width: 120%;
+        margin-left: -10%;
+    }
 }
 
 @media only screen and (min-width: 36rem) {
@@ -52,8 +57,8 @@
 
     .assistant-gallery .image-responsive:first-child {
         grid-column: 1 / span 3;
-        width: 120%;
-        margin-left: -10%;
+        width: 110%;
+        margin-left: -5%;
     }
 
     .image-responsive:nth-child(2) {
@@ -154,8 +159,8 @@
     .assistant-gallery #nutella {
         grid-row: 14;
         grid-column: 1 / span 3;
-        width: 175%;
-        margin-left: -9%;
+        width: 110%;
+        margin-left: -5%;
     }
 }
 
@@ -166,13 +171,13 @@
     }
 
     .assistant-gallery .image-responsive:first-child {
-        width: 130%;
-        margin-left: -15%;
+        width: 120%;
+        margin-left: -10%;
     }
 
     .assistant-gallery #nutella {
-        width: 190%;
-        margin-left: -15%;
+        width: 120%;
+        margin-left: -10%;
     }
 }
 
@@ -188,8 +193,8 @@
     }
 
     .assistant-gallery #nutella {
-        width: 210%;
-        margin-left: -25%;
+        width: 140%;
+        margin-left: -20%;
     }
 }
 
@@ -223,7 +228,7 @@
     }
 
     .assistant-gallery #nutella {
-        width: 270%;
-        margin-left: -55%;
+        width: 180%;
+        margin-left: -40%;
     }
 }
