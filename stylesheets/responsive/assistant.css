@@ -1,6 +1,6 @@
 @media only screen and (max-width: 35.99rem) {
     .assistant-gallery {
-        margin: 35% 10% 0 10%;
+        margin: 35% 10% 15% 10%;
     }
 
     .assistant-gallery .image-responsive:first-child {
@@ -47,7 +47,7 @@
 @media only screen and (min-width: 36rem) {
     .assistant-gallery {
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 20% 5% 0 5%;
+        margin: 20% 5% 15% 5%;
     }
 
     .assistant-gallery .image-responsive:first-child {
@@ -161,7 +161,7 @@
 
 @media only screen and (min-width: 48rem) {
     .assistant-gallery {
-        margin: 20% 10% 0 10%;
+        margin: 20% 10% 15% 10%;
         gap: 4rem;
     }
 
@@ -178,7 +178,7 @@
 
 @media only screen and (min-width: 64rem) {
     .assistant-gallery {
-        margin: 15% 15% 0 15%;
+        margin: 15% 15% 10% 15%;
         gap: 5rem;
     }
 
@@ -213,7 +213,7 @@
 
 @media only screen and (min-width: 120rem) {
     .assistant-gallery {
-        margin: 10% 25% 0 25%;
+        margin: 10% 25% 8% 25%;
         gap: 7rem;
     }
 
