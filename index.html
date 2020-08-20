@@ -164,17 +164,17 @@
         </footer>
         <script src='./animations/app.js'></script>
         <script>
-            // setTimeout(function() {
+            setTimeout(function() {
                 $(document).ready(function () {
                     //Preloader
-                    preloaderFadeOutTime = 500;
+                    preloaderFadeOutTime = 400;
                     function hidePreloader() {
                         var preloader = $('.spinner-wrapper');
                         preloader.fadeOut(preloaderFadeOutTime);
                     }
                     hidePreloader();
                 });
-            // }, 3800);
+            }, 2500);
         </script>
     </body>
 </html>
