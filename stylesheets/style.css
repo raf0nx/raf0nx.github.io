@@ -29,6 +29,7 @@ html, body {
     bottom: 0;
     background-color: #fff;
     z-index: 999999;
+    transition: opacity 0.5s ease;
 }
 
 .sk-folding-cube {
@@ -118,6 +119,11 @@ html, body {
             transform: perspective(140px) rotateY(180deg);
     opacity: 0; 
   }
+}
+
+.preload-finish {
+    opacity: 0;
+    pointer-events: none;
 }
 
 /* ============================================= */
