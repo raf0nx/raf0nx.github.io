@@ -14,8 +14,12 @@
     font-family: euclid-bold;
 }
 
-html, body {
+html {
     font-family: 'euclid';
+}
+
+body {
+  touch-action: pan-x pan-y;
 }
 
 /* ============================================= */
