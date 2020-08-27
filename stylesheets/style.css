@@ -20,6 +20,7 @@ html {
 
 body {
   touch-action: pan-x pan-y;
+  overflow-x: hidden;
 }
 
 /* ============================================= */
@@ -137,7 +138,7 @@ video {
 }
 
 .overflow {
-    overflow: hidden;
+    overflow: hidden!important;
 }
 
 /* ============================================= */
@@ -286,6 +287,7 @@ video {
     transition: 0.6s;
     padding: 0;
     visibility: hidden;
+    opacity: 0;
 }
 
 .showMenu ul li:last-child a{
@@ -305,6 +307,7 @@ video {
 .ul-show {
     visibility: visible!important;
     height: 100%!important;
+    opacity: 1!important;
 }
 
 /* ============================================= */
