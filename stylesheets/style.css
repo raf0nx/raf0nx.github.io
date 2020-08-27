@@ -197,7 +197,7 @@ video {
 .return {
     position: fixed;
     font-size: .7rem;
-    z-index: 10;
+    z-index: 1;
     left: 3%;
     top: 6.5%;
     letter-spacing: 1px;
@@ -209,12 +209,11 @@ video {
     padding: .5rem;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, .5);
-    transition-property: color;
-    transition-duration: .5s;
 }
 
 .return a:hover {
     color: #909090;
+    transition: .5s;
 }
 
 /* HAMBURGER MENU */
