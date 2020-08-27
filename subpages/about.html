@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/about.css' type='text/css'>
@@ -18,8 +19,8 @@
 
 <body>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
-    <div class="hiddenMenu">
-        <ul>
+    <div class="showMenu">
+        <ul class="showMenu-list">
             <li><a href='about.html'>about</a></li>
             <li><a href='../index.html'>portfolio</a></li>
             <li><a href='clients.html'>clients</a></li>
@@ -51,10 +52,10 @@
     <!-- MAIN -->
     <main>
         <section class="about-section">
-            <img class='image-responsive' src="../images/wiolka.jpg" alt="Profile picture of our beautiful Stylist">
-            <article>
-                <h2 class="about-title">______ about me</h2>
-                <h2 class="about-title-next">about me ______</h2>
+            <img class='image-responsive' src="../images/wiolka.jpg" alt="Profile picture of our beautiful Stylist" data-aos='fade-right'>
+            <article data-aos='fade-left'>
+                <h2 class="about-title">about me</h2>
+                <h2 class="about-title-next">about me</h2>
                 <p>I'm a certified image advisor, fashion stylist and costume designer. I've gained professional experience assisting stylists on their private projects as well as in "Viva! Moda i Uroda Życia" magazines. I'd been working on photo shoots plans, creating campaigns, lookbooks, advertisements and editorials. On a daily basis I work with individual clients and companies. I have a lot of experience as an e-commerce stylist.</p>
             </article>
         </section>
@@ -67,6 +68,13 @@
                 href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
     </footer>
     <script src='../animations/app.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>

@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/bigstar.css' type='text/css'>
@@ -18,8 +19,8 @@
 
 <body>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
-    <div class="hiddenMenu">
-        <ul>
+    <div class="showMenu">
+        <ul class="showMenu-list">
             <li><a href='about.html'>about</a></li>
             <li><a href='../index.html'>portfolio</a></li>
             <li><a href='clients.html'>clients</a></li>
@@ -51,24 +52,24 @@
     <main>
         <section class="big-star-gallery">
             <img src="../images/Big Star Photos/20200703_1334a.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1847.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1981.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1893.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1499.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1824.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1672.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1744.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1821a.jpg" alt="" class="image-responsive">
-            <video class='image-responsive' autoplay loop muted playsinline>
+            <img src="../images/Big Star Photos/20200703_1847.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1981.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1893.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1499.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1824.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1672.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1744.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1821a.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <video class='image-responsive' autoplay loop muted playsinline data-aos='fade-up'>
                 <source src='../images/Big Star Movies/montaz_18_07_2020_post_bez ramek.mp4' type="video/mp4">
             </video>
-            <img src="../images/Big Star Photos/20200703_2246.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_2509.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_2011.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_1457.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_2041.jpg" alt="" class="image-responsive">
-            <img src="../images/Big Star Photos/20200703_2094.jpg" alt="" class="image-responsive">
-            <article class="credits">
+            <img src="../images/Big Star Photos/20200703_2246.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_2509.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_2011.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_1457.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_2041.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Big Star Photos/20200703_2094.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <article class="credits" data-aos='fade-up'>
                 <h2>Pre-fall campaign for Big Star Shoes</h2>
                 <p>Production: A12</p>
                 <p>Producer: Monika Biedroń | A12</p>
@@ -91,6 +92,13 @@
                 href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
     </footer>
     <script src='../animations/app.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>

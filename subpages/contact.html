@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/contact.css' type='text/css'>
@@ -19,8 +20,8 @@
 
 <body>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
-    <div class="hiddenMenu">
-        <ul>
+    <div class="showMenu">
+        <ul class="showMenu-list">
             <li><a href='about.html'>about</a></li>
             <li><a href='../index.html'>portfolio</a></li>
             <li><a href='clients.html'>clients</a></li>
@@ -51,7 +52,7 @@
     </div>
     <!-- MAIN -->
     <main>
-        <section class="contact-section">
+        <section class="contact-section" data-aos='fade-up'>
             <h2 class="contact-header">contact</h2>
             <div class="contact-icons">
                 <a href="tel:+48 690 289 570"><i class="fas fa-phone"> <span>+48 690 289 570</span></i></a>
@@ -78,6 +79,13 @@
                 href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
     </footer>
     <script src='../animations/app.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>

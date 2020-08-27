@@ -40,7 +40,8 @@ body {
     width: 40px;
     height: 40px;
     position: absolute;
-    margin: 20px auto;
+    top: 48%;
+    left: 45%;
     -webkit-transform: rotateZ(45deg);
     transform: rotateZ(45deg);
 }
@@ -156,11 +157,12 @@ video {
     color: #000;
     font-size: .9rem;
     margin: 0 auto;
+    transition-property: color;
+    transition-duration: .5s;
 }
 
 .main-logo a:hover {
     color: #909090;
-    transition: .5s;
 }
 
 .caption {
@@ -205,11 +207,12 @@ video {
     padding: .5rem;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, .5);
+    transition-property: color;
+    transition-duration: .5s;
 }
 
 .return a:hover {
     color: #909090;
-    transition: .6s;
 }
 
 /* HAMBURGER MENU */
@@ -230,7 +233,7 @@ video {
   height: 2px;
   background-color: #333;
   margin: 4px 0;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .change .bar1 {
@@ -249,32 +252,32 @@ video {
   background-color: #fff;
 }
 
-/* HIDDEN MENU (DIV OVERLAY - showMenu) */
-.hiddenMenu{
-    color: red;
-    display: none;
-}
-
+/* Menu overlay */
 .showMenu {
     display: block;
     position: fixed;
     background-color: #000;
     width: 100%;
-    height: 100%;
+    height: 0%;
     top: 0;
+    /* opacity: 0; */
+    visibility: hidden;
     left: 0;
     z-index: 1;
+    transition: .5s ease-out;
 }
 
 .showMenu a {
     text-decoration: none;
     color: #fff;
+    transition-property: color;
+    transition-duration: .5s;
 }
 
 .showMenu ul {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 0%;
     list-style-type: none;
     align-items: center;
     justify-content: center;
@@ -282,6 +285,7 @@ video {
     font-size: 1.6rem;
     transition: 0.6s;
     padding: 0;
+    visibility: hidden;
 }
 
 .showMenu ul li:last-child a{
@@ -290,7 +294,17 @@ video {
 
 .showMenu ul li a:hover {
     color: #909090;
-    transition: .5s;
+}
+
+.menu-opacity {
+    /* opacity: 1!important; */
+    visibility: visible!important;
+    height: 100%!important;
+}
+
+.ul-show {
+    visibility: visible!important;
+    height: 100%!important;
 }
 
 /* ============================================= */
@@ -368,11 +382,12 @@ section {
 .img-caption a {
     text-decoration: none;
     color: #000;
+    transition-property: color;
+    transition-duration: .5s;
 }
 
 .img-caption a:hover {
     color: #909090;
-    transition: .5s;
 }
 
 .image-card:last-child {

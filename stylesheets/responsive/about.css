@@ -13,7 +13,7 @@
 
     .about-section p {
         font-size: .9rem;
-        line-height: 1.5rem;
+        line-height: 1.6rem;
     }
 
     .about-section article {
@@ -45,7 +45,7 @@
 
     .about-section p {
         font-size: 1rem;
-        line-height: 1.5rem;
+        line-height: 1.7rem;
     }
 }
 
@@ -63,13 +63,14 @@
 
     .about-section p {
         font-size: 1.2rem;
+        line-height: 2rem;
     }
 }
 
 /* FOR iPads */
 @media only screen and (min-width: 48rem) {
     .about-section {
-        margin: 25% 12% 0 12%;
+        margin: 20% 12% 0 12%;
         gap: 2.5rem;
     }
 
@@ -79,21 +80,25 @@
     }
 
     .about-title {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
+        width: 80%;
+        margin: 10% auto 8% auto;
     }
 
     .about-section p {
-        font-size: 1.4rem;
-        line-height: 2rem;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
     }
 
 }
 
 /* FOR DESKTOPS & LAPTOPS */
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 74rem) {
     .about-section {
         grid-template-columns: 1fr 1fr;
-        margin: 16% 10% 20% 10%;
+        margin: 16% 8% 20% 8%;
         gap: 4rem;
     }
 
@@ -115,7 +120,19 @@
     }
 
     .about-section p {
-        font-size: 1.1rem;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+    .about-title-next {
+        font-size: 2.7rem;
+    }
+
+    .about-section p {
+        font-size: 1.3rem;
+        line-height: 2.7rem;
     }
 }
 
@@ -128,6 +145,7 @@
 
     .about-section p {
         font-size: 1.4rem;
+        line-height: 2.8rem;
     }
 
     .about-title-next {
@@ -145,6 +163,7 @@
 
     .about-section p {
         font-size: 1.6rem;
+        line-height: 3rem;
     }
 
     .about-title-next {

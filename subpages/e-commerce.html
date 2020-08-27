@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/e-commerce.css' type='text/css'>
@@ -18,8 +19,8 @@
 
 <body>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
-    <div class="hiddenMenu">
-        <ul>
+    <div class="showMenu">
+        <ul class="showMenu-list">
             <li><a href='about.html'>about</a></li>
             <li><a href='../index.html'>portfolio</a></li>
             <li><a href='clients.html'>clients</a></li>
@@ -51,17 +52,17 @@
     <main>
         <section class="ecommerce-gallery">
             <img src="../images/e-commerce/cd8ed7b1af43b8c18e04a865085cd7e42d9c3ce8.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/f237847f4376e2999bc4810b4a94b0bcdc62e8c4.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/7626699f221b2496fe063e634362f8472cc845fc.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/f57e3d81f34af60afd1c32d3b706d7b000dc101b.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/c37a4f1a4e2dcba2545efd41623eb533439e035b.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/4486da1dba0d6a788312be159dc41a5bfc224431.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/9afd55a6ce21f5bc197dd49b11e20566a8f419be.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/01b53b37e112186c605892ebd00d332e0cdb2c1b.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/2f39f4b6631318245db4f1685c3f075bdcf571e4.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/f1f6ba3d07cf8b4ca932cdbb35dee8e482f01a9c.jpg" alt="" class="image-responsive">
-            <img src="../images/e-commerce/a638f08a8d50c20ea5ba8590981baa7bae89e88e.jpg" alt="" class="image-responsive">
-            <article class="credits">
+            <img src="../images/e-commerce/f237847f4376e2999bc4810b4a94b0bcdc62e8c4.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/7626699f221b2496fe063e634362f8472cc845fc.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/f57e3d81f34af60afd1c32d3b706d7b000dc101b.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/c37a4f1a4e2dcba2545efd41623eb533439e035b.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/4486da1dba0d6a788312be159dc41a5bfc224431.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/9afd55a6ce21f5bc197dd49b11e20566a8f419be.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/01b53b37e112186c605892ebd00d332e0cdb2c1b.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/2f39f4b6631318245db4f1685c3f075bdcf571e4.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/f1f6ba3d07cf8b4ca932cdbb35dee8e482f01a9c.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/e-commerce/a638f08a8d50c20ea5ba8590981baa7bae89e88e.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <article class="credits" data-aos='fade-up'>
                 <h2>Reserved & Mohito</h2>
             </article>
         </section>
@@ -74,6 +75,13 @@
                 href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
     </footer>
     <script src='../animations/app.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>

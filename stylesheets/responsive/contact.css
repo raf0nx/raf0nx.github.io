@@ -52,13 +52,14 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        transition-property: color, background;
+        transition-duration: .5s;
     }
 
     input[type='submit']:hover {
         color: #000;
         background-color: #fff;
         cursor: pointer;
-        transition: .6s;
     }
 
     .contact-icons {
@@ -97,11 +98,12 @@
     .social-icons a {
         text-decoration: none;
         color: #000;
+        transition-property: color;
+        transition-duration: .5s;
     }
 
     .social-icons a:hover {
         color: #909090;
-        transition: .6s;
     }
 }
 
@@ -160,13 +162,14 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        transition-property: color, background;
+        transition-duration: .5s;
     }
 
     input[type='submit']:hover {
         color: #000;
         background-color: #fff;
         cursor: pointer;
-        transition: .6s;
     }
 
     .contact-icons {
@@ -205,11 +208,12 @@
     .social-icons a {
         text-decoration: none;
         color: #000;
+        transition-property: color;
+        transition-duration: .5s;
     }
 
     .social-icons a:hover {
         color: #909090;
-        transition: .6s;
     }
 }
 

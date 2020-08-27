@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/fabrics.css' type='text/css'>
@@ -18,8 +19,8 @@
 
 <body>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
-    <div class="hiddenMenu">
-        <ul>
+    <div class="showMenu">
+        <ul class="showMenu-list">
             <li><a href='about.html'>about</a></li>
             <li><a href='../index.html'>portfolio</a></li>
             <li><a href='clients.html'>clients</a></li>
@@ -51,12 +52,12 @@
     <main>
         <section class="fabric-gallery">
             <img src="../images/Sesja 2/22496275_1540790755986311_6636287749565110111_o.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 2/DSC_8174.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 2/DSC_7840.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 2/DSC_7800.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 2/DSC_7788.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 2/DSC_8080.jpg" alt="" class="image-responsive">
-            <article class="credits">
+            <img src="../images/Sesja 2/DSC_8174.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 2/DSC_7840.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 2/DSC_7800.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 2/DSC_7788.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 2/DSC_8080.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <article class="credits" data-aos='fade-up'>
                 <h2><em>Fabric's drama</em> for La Vie magazine</h2>
                 <p>Photographer: Diana Malinowska</p>
                 <p>Stylist: Wioletta Kuprowska</p>
@@ -74,6 +75,13 @@
                 href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
     </footer>
     <script src='../animations/app.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>

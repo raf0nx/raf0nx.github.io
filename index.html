@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="shortcut icon" href="./images/favicon.ico">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href='./stylesheets/style.css' type='text/css'>
         <link rel="stylesheet" href='./stylesheets/responsive/media.css' type='text/css'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -30,8 +31,8 @@
             </div>
         </div>
         <!-- HIDDEN MENU (DIV OVERLAY) -->
-        <div class="hiddenMenu">
-            <ul>
+        <div class="showMenu">
+            <ul class="showMenu-list">
                 <li><a href='./subpages/about.html'>about</a></li>
                 <li><a href='index.html'>portfolio</a></li>
                 <li><a href='./subpages/clients.html'>clients</a></li>
@@ -59,7 +60,7 @@
         <main>
             <!-- HEADER -->
             <header class="main-logo">
-                <a href="index.html">wioletta kuprowska<p class="caption">STYLIST</p></a>
+                <a href="./subpages/about.html">wioletta kuprowska<p class="caption">STYLIST</p></a>
             </header>
             <section>
                 <!-- First element -->
@@ -78,13 +79,13 @@
                     <hr class='img-border'>
                 </div>
                 <div class='vertical-text'>
-                    <a href='./subpages/big_star_gallery.html'><span class='underline-left'>________</span><span class='v-t-style'> Big Star Shoes </span></a>
+                    <a href='./subpages/big_star_gallery.html'><span class='underline-left'>________</span><span class='v-t-style'> Big Star Shoes</span></a>
                 </div>
                 <!-- Second element -->
                 <div class='vertical-text'>
-                    <span class='v-t-style'><a href="./subpages/magnus_gallery.html">Magnus Artifex</span><span class='underline-right'>_______</span></a>
+                    <span class='v-t-style'><a href="./subpages/magnus_gallery.html">Magnus Artifex</span><span class='underline-right'>_______</a></span>
                 </div>
-                <div class="image-card">
+                <div id='aos-div' class="image-card" data-aos='fade-left'>
                     <div class='image-wrapper'>
                         <a class='portfolio-link' href="./subpages/magnus_gallery.html">
                             <img class='image-responsive' src="./images/Sesja 3/DSC_1440.jpg" alt="">
@@ -96,7 +97,7 @@
                     <hr class='img-border'>
                 </div>
                 <!-- Third element -->
-                <div class="image-card">
+                <div class="image-card" data-aos='fade-right'>
                     <div class='image-wrapper'>
                         <a class='portfolio-link' href="./subpages/vicky.html">
                             <img class='image-responsive'
@@ -109,14 +110,14 @@
                     <h2 class="img-caption"><a href='./subpages/vicky.html'><span>Vicky Session</i></span><i class="fas fa-long-arrow-alt-right"></i></a></h2>
                     <hr class='img-border'>
                 </div>
-                <div class='vertical-text'>
+                <div class='vertical-text' data-aos='fade-up'>
                     <a href='./subpages/vicky.html'><span class='underline-left'>_______________</span><span class='v-t-style'>Vicky Session</span></a>
                 </div>
                 <!-- Fourth element -->
-                <div class='vertical-text'>
-                    <span class='v-t-style'><a href="./subpages/fabric's_drama.html">Fabric's Drama</span><span class='underline-right'>__________</span></a>
+                <div class='vertical-text' data-aos="fade-up">
+                    <span class='v-t-style'><a href="./subpages/fabric's_drama.html">Fabric's Drama</span><span class='underline-right'>__________</a></span>
                 </div>
-                <div class="image-card">
+                <div class="image-card" data-aos='fade-left'>
                     <div class='image-wrapper'>
                         <a class='portfolio-link' href="./subpages/fabric's_drama.html">
                             <img class='image-responsive'
@@ -129,7 +130,7 @@
                     <hr class='img-border'>
                 </div>
                 <!-- Fifth element -->
-                <div class="image-card">
+                <div class="image-card" data-aos="fade-right">
                     <div class='image-wrapper'>
                         <a class='portfolio-link' href="./subpages/e-commerce.html">
                             <img class='image-responsive'
@@ -141,14 +142,14 @@
                     <h2 class="img-caption"><a href='./subpages/e-commerce.html'><span>E-commerce</i></span><i class="fas fa-long-arrow-alt-right"></i></a></h2>
                     <hr class='img-border'>
                 </div>
-                <div class='vertical-text'>
+                <div class='vertical-text' data-aos="fade-up">
                     <a href='./subpages/e-commerce.html'><span class='underline-left'>______________</span><span class='v-t-style'>E-commerce</span></a>
                 </div>
                 <!-- Sixth element -->
-                <div class='vertical-text'>
-                    <span class='v-t-style'><a href='./subpages/assistant.html'>Assistant</span><span class='underline-right'>__________________</span></a>
+                <div class='vertical-text' data-aos="fade-up">
+                    <span class='v-t-style'><a href='./subpages/assistant.html'>Assistant</span><span class='underline-right'>__________________</a></span>
                 </div>
-                <div class="image-card">
+                <div class="image-card" data-aos="fade-left">
                     <div class='image-wrapper'>
                         <a class='portfolio-link' href="./subpages/assistant.html">
                             <img class='image-responsive' src="./images/skany-asystowanie/IMG_20200727_154143.jpg" alt="">
@@ -167,5 +168,12 @@
             <p>Made with <i class="fas fa-heart"></i> and <i class="far fa-keyboard"></i> by <a href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
         </footer>
         <script src='./animations/app.js'></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 0,
+                duration: 1500,
+            });
+        </script>
     </body>
 </html>

@@ -83,8 +83,8 @@
 
     .big-star-gallery .image-responsive:nth-child(10) {
         grid-column: 1 / span 2;
-        width: 120%;
-        margin-left: -10%;
+        width: 110%;
+        margin-left: -5%;
     }
 
     .big-star-gallery .image-responsive:nth-child(11) {
@@ -154,8 +154,8 @@
     }
 
     .big-star-gallery .image-responsive:nth-child(10) {
-        width: 130%;
-        margin-left: -15%;
+        width: 120%;
+        margin-left: -10%;
     }
 
     .big-star-gallery .image-responsive:nth-child(11) {

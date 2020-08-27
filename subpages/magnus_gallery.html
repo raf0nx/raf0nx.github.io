@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/magnus.css' type='text/css'>
@@ -18,8 +19,8 @@
 
 <body>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
-    <div class="hiddenMenu">
-        <ul>
+    <div class="showMenu">
+        <ul class="showMenu-list">
             <li><a href='about.html'>about</a></li>
             <li><a href='../index.html'>portfolio</a></li>
             <li><a href='clients.html'>clients</a></li>
@@ -51,15 +52,15 @@
     <main>
         <section class="magnus-gallery">
             <img src="../images/Sesja 3/DSC_1568.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1223.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1259.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1279.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1302.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1322.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1046.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1119.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1099.jpg" alt="" class="image-responsive">
-            <article class="credits">
+            <img src="../images/Sesja 3/DSC_1223.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1259.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1279.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1302.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1322.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1046.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1119.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <img src="../images/Sesja 3/DSC_1099.jpg" alt="" class="image-responsive" data-aos='fade-up'>
+            <article class="credits" data-aos='fade-up'>
                 <h2><em>Magnus Artifex</em> for sickymag</h2>
                 <p>Photographer: Diana Malinowska</p>
                 <p>Photographer assistant: Vlad Bezuhlyi</p>
@@ -77,6 +78,13 @@
                 href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
     </footer>
     <script src='../animations/app.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1500,
+        });
+    </script>
 </body>
 
 </html>
