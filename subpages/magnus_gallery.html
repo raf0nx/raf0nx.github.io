@@ -15,9 +15,24 @@
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/magnus.css' type='text/css'>
+    <script>
+        window.addEventListener('load', () => {
+            const preload = document.querySelector('.spinner-wrapper');
+            preload.classList.add('preload-finish');
+        });
+    </script>
 </head>
 
 <body>
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
     <!-- HIDDEN MENU (DIV OVERLAY) -->
     <div class="showMenu">
         <ul class="showMenu-list">

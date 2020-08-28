@@ -8,7 +8,7 @@ if (isset($_POST['send'])) {
 
 	$mailTo = "w.kuprowska@wiolettakuprowska.pl";
 	$headers = "From: ".$email;
-	$txt = $comments.".\n\n"."Moźesz napisać do ".$name." pod wskazany email: ".$email;
+	$txt = $comments.".\n\n"."Możesz napisać do ".$name." pod wskazany email: ".$email;
 
 	mail($mailTo, $subject, $txt, $headers);
 	header("Location: ../subpages/contact-send.html");

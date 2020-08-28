@@ -42,7 +42,7 @@ body {
     height: 40px;
     position: absolute;
     top: 48%;
-    left: 45%;
+    left: 48%;
     -webkit-transform: rotateZ(45deg);
     transform: rotateZ(45deg);
 }
