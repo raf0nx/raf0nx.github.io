@@ -9,12 +9,13 @@
     <meta name='robots' content='index, follow'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="../images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href='../stylesheets/style.css' type='text/css'>
     <link rel="stylesheet" href='../stylesheets/responsive/media.css' type='text/css'>
-    <link rel="stylesheet" href='../stylesheets/responsive/magnus.css' type='text/css'>
+    <link rel="stylesheet" href='../stylesheets/responsive/contact.css' type='text/css'>
 </head>
 
 <body>
@@ -31,13 +32,15 @@
                         class="fab fa-facebook-square"></i></a>
                 <a href="https://instagram.com/wioletta.kuprowska?igshid=uaoqcm96po7w" target="blank"><i
                         class="fab fa-instagram"></i></a>
-                <a href='https://pl.linkedin.com/in/wioletta-kuprowska' target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href='https://pl.linkedin.com/in/wioletta-kuprowska' target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
             </li>
         </ul>
     </div>
-    <!-- GO BACK -->
-    <div class="return"><a href="../index.html">Go back</a></div>
     <!-- NAV -->
+    <div class="home-btn">
+        <a href='../index.html'><i class="fas fa-home"></i></a>
+    </div>
     <div class="sticky-menu">
         <nav>
             <!-- HAMBURGER MENU -->
@@ -50,39 +53,18 @@
     </div>
     <!-- MAIN -->
     <main>
-        <section class="magnus-gallery" data-aos="fade-up">
-            <img src="../images/Sesja 3/DSC_1568.jpg" alt="" class="image-responsive">
-            <img src="../images/Sesja 3/DSC_1223.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1259.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1279.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1302.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1322.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1046.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1119.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <img src="../images/Sesja 3/DSC_1099.jpg" alt="" class="image-responsive" data-aos='fade-up'>
-            <article class="credits">
-                <h2><em>Magnus Artifex</em> for sickymag</h2>
-                <p>Photographer: Diana Malinowska</p>
-                <p>Photographer assistant: Vlad Bezuhlyi</p>
-                <p>Stylist: Wioletta Kuprowska</p>
-                <p>Stylist assistant: Natalia Pisarek</p>
-                <p>Model: Yan Prakapovich</p>
-            </article>
+        <section class="contact-section" data-aos='fade-up'>
+            <h2 class="contact-header">Email sent!</h2>
+            <form method="GET" action="../index.html" name="cform" id="cform">
+                <input type="submit" id="submit" name="send" class="submitBnt" value="Go back">
         </section>
     </main>
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy <a href='https://www.facebook.com/profile.php?id=100004552031830' target='blank'>Wioletta
-                Kuprowska.</a> All Rights Reserved</p>
-        <p>Made with <i class="fas fa-heart"></i> and <i class="far fa-keyboard"></i> by <a
-                href='https://www.facebook.com/profile.php?id=100001863935265'>Rafał Pawłowski</a></p>
-    </footer>
     <script src='../animations/app.js'></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
             offset: 400,
-            duration: 1000,
+            duration: 1500,
         });
     </script>
 </body>

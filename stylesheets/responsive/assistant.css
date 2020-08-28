@@ -162,6 +162,10 @@
         width: 110%;
         margin-left: -5%;
     }
+
+    #credits-3 {
+        grid-column: 1 / span 3;
+    }
 }
 
 @media only screen and (min-width: 48rem) {
@@ -203,6 +207,21 @@
     .assistant-gallery {
         margin: 15% 20% 10% 20%;
         gap: 6rem;
+    }
+
+    .assistant-gallery .image-responsive:nth-child(2) {
+        width: 120%;
+        margin-left: -10%;
+    }
+    
+    .assistant-gallery .image-responsive:nth-child(3) {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    .assistant-gallery .image-responsive:nth-child(4) {
+        width: 129%;
+        margin-left: -14%;
     }
 
     .assistant-gallery .image-responsive:first-child {
