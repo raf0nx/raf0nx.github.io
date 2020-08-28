@@ -30,6 +30,7 @@
     textarea {
         min-height: 8rem;
         font-family: euclid;
+        resize: none;
     }
 
     input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
@@ -140,6 +141,7 @@
     textarea {
         min-height: 8rem;
         font-family: euclid;
+        resize: none;
     }
 
     input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
