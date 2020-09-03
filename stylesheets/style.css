@@ -197,7 +197,7 @@ video {
 .return {
     position: fixed;
     font-size: .7rem;
-    z-index: 1;
+    z-index: 2;
     left: 3%;
     top: 6.5%;
     letter-spacing: 1px;
@@ -221,7 +221,7 @@ video {
     position: fixed;
     right: 4%;
     top: 5.5%;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .container {
@@ -261,10 +261,9 @@ video {
     width: 100%;
     height: 0%;
     top: 0;
-    /* opacity: 0; */
     visibility: hidden;
     left: 0;
-    z-index: 2;
+    z-index: 9999;
     transition: .5s ease-out;
 }
 
@@ -471,4 +470,31 @@ footer a:hover {
 
 .credits p {
     font-size: .6rem;
+}
+
+/* ============================================= */
+/* SQUAD BOX IN ASSISTANT GALLERY */
+/* ============================================= */
+.pop-up {
+    position: fixed;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    padding: 5%;
+    top: 25%;
+    left: 20%;
+    right: 20%;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+.vision {
+    visibility: visible!important;
+}
+
+.x-icon {
+    position: relative;
+    left: 48%;
+    top: -5px;
+    font-size: 1.5rem;
 }

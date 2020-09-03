@@ -1,10 +1,7 @@
-const hamburger  = document.querySelector('.container'),
-      showMenu = document.querySelector('.showMenu'),
+const hamburger    = document.querySelector('.container'),
+      showMenu     = document.querySelector('.showMenu'),
       showMenuList = document.querySelector('.showMenu-list'),
-      overflow   = document.querySelector('body');
-
-
-const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+      body         = document.querySelector('body');
 
 // HAMBURGER MENU EVENT HANDLERS
 function myFunction(e) {
@@ -14,9 +11,5 @@ function myFunction(e) {
 hamburger.addEventListener('click', () => {
     showMenu.classList.toggle('menu-opacity');
     showMenuList.classList.toggle('ul-show');
-    overflow.classList.toggle('overflow');
+    body.classList.toggle('overflow');
 });
-
-if(vw >= 576) {
-    document.querySelector('#aos-div').removeAttribute('data-aos');
-}
